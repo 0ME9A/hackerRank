@@ -1,5 +1,3 @@
-from sys import maxsize
-from attr import define
 
 # function for sum maximum and minimum
 def miniMaxSum(arr):
