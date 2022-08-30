@@ -1,7 +1,7 @@
 # function for sum maximum and minimum
 
+
 def miniMaxSum(arr):
-    # Write your code here
     try:
         total_sum = 0
         maximum = max(arr)
@@ -13,8 +13,9 @@ def miniMaxSum(arr):
         max_sum = total_sum-minimum
         min_sum = total_sum-maximum
         print(min_sum, max_sum)
+
     except:
-        print("SOMETHING WENT WRONG, PLEASE CHECK THE SOURCE CODE...")
+        print("SOMETHING WENT WRONG???")
     
 
 arr = [1,2,3,4,5]

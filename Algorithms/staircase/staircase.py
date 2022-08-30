@@ -1,5 +1,4 @@
 # 8Staircase detail
-getInput = int(input("Give a number:- "))
 
 
 def stair(n):
@@ -14,4 +13,5 @@ def stair(n):
         print ('invalid input.')
 
 
+getInput = int(input("Give a number:- "))
 stair(getInput)
