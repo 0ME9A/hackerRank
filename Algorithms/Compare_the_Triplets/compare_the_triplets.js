@@ -24,7 +24,7 @@ CompareTheTriplets=(a, b)=>{
 }
 
 
-const alice = [3,4,99]
-const bob = [33,32,22]
+const alice = [17, 28, 30]
+const bob = [99, 16, 8]
 
 CompareTheTriplets(alice, bob)

@@ -7,9 +7,9 @@ def CompareTheTriplets(a, b):
         i = 0
         while i<len(a):
             if a[i] > b[i]:
-                aliceInitialPoint= aliceInitialPoint+1
+                aliceInitialPoint+=1
             if a[i] < b[i]:
-                bobInitialPoint= bobInitialPoint+1
+                bobInitialPoint+=1
             i=i+1
     else:
         print ('Data are Not same')
